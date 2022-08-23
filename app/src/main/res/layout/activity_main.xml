@@ -23,8 +23,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="center"
-            android:src="@drawable/image"
-
             />
 
         <com.androstays.kidsdrawingapp.DrawingView
@@ -171,6 +169,14 @@
             android:layout_margin="5dp"
             android:scaleType="fitXY"
             android:src="@drawable/ic_brush" />
+
+        <ImageButton
+            android:id="@+id/ibSave"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_save" />
 
     </LinearLayout>
 
