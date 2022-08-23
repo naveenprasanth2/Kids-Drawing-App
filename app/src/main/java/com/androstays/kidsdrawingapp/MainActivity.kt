@@ -194,6 +194,7 @@ class MainActivity : AppCompatActivity() {
                                 "File saved successfully :$result",
                                 Toast.LENGTH_SHORT
                             ).show()
+                            shareImage(result)
                         } else {
                             Toast.makeText(
                                 this@MainActivity,
